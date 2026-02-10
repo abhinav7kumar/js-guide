@@ -19,3 +19,4 @@ Do not use var to declare variables as it can lead to unexpected behavior due to
 */
 
 console.table({ accountId, accountUserName, accountEmail, accountCity, accountState });
+console.log("AccountId:", accountId);
