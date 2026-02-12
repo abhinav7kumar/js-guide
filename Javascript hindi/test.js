@@ -43,3 +43,18 @@ console.log(a !== b);  // true
 console.log(a > 5);    // true
 console.log(a <= 10);  // true
 
+
+// Type Conversion
+
+let strNumber = "25";
+let convertedNumber = Number(strNumber);
+
+let num = 100;
+let convertedString = String(num);
+
+let booleanValue = Boolean(1);
+
+console.log(convertedNumber, typeof convertedNumber);
+console.log(convertedString, typeof convertedString);
+console.log(booleanValue, typeof booleanValue);
+
