@@ -15,3 +15,18 @@ console.log(typeof skills);
 console.log(typeof profile);
 console.log(typeof score);
 console.log(typeof value);
+
+// Variables in JavaScript
+
+var city = "Delhi";
+let country = "India";
+const profession = "UI/UX Designer";
+
+city = "Ahmedabad";      // allowed
+country = "Germany";    // allowed
+
+
+console.log(city);
+console.log(country);
+console.log(profession);
+
