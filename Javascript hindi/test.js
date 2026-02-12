@@ -58,3 +58,23 @@ console.log(convertedNumber, typeof convertedNumber);
 console.log(convertedString, typeof convertedString);
 console.log(booleanValue, typeof booleanValue);
 
+// Arithmetic and Logical Operators
+
+let x = 10;
+let y = 5;
+
+// Arithmetic
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+
+// Logical
+let isLoggedIn = true;
+let isAdmin = false;
+
+console.log(isLoggedIn && isAdmin); // false
+console.log(isLoggedIn || isAdmin); // true
+console.log(!isLoggedIn);           // false
+
+
